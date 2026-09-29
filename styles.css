@@ -1,0 +1,128 @@
+:root {
+  --primary-red: #c41e3a; /* Rich crimson red background */
+  --accent-gold: #d4af37; /* Antique gold for text and buttons */
+  --dark-bg: #1a1a1a;
+  --light-text: #f4f4f4;
+}
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: "Tiro Devanagari Sanskrit", serif;
+  background-color: var(--dark-bg);
+  color: var(--light-text);
+  line-height: 1.6;
+}
+
+/* Hero Section with Red Background */
+header {
+  background-color: var(--primary-red);
+  padding: 4rem 2rem;
+  text-align: center;
+  border-bottom: 4px solid var(--accent-gold);
+}
+
+h1 {
+  font-family: "Tiro Devanagari Sanskrit", serif;
+  font-size: 3rem;
+  color: var(--accent-gold);
+  letter-spacing: 2px;
+  margin-bottom: 1rem;
+  text-transform: uppercase;
+}
+
+.subtitle {
+  font-size: 1.2rem;
+  font-style: italic;
+  margin-bottom: 2rem;
+  color: #fff;
+}
+
+/* Book Cover Container */
+.book-container {
+  max-width: 800px;
+  margin: 0 auto;
+  border: 3px solid var(--accent-gold);
+  box-shadow: 0 10px 30px rgba(0, 0, 0, 0.5);
+  background: #000;
+}
+
+.book-container img {
+  width: 100%;
+  height: auto;
+  display: block;
+}
+.dragon-container img {
+  width: 100%;
+  height: auto;
+  display: block;
+}
+/* Content Sections */
+main {
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 4rem 2rem;
+}
+
+section {
+  margin-bottom: 4rem;
+}
+
+h2 {
+  font-family: "Tiro Devanagari Sanskrit", serif;
+  color: var(--accent-gold);
+  font-size: 2rem;
+  margin-bottom: 1.5rem;
+  text-align: center;
+}
+
+h3 {
+  font-family: "Tiro Devanagari Sanskrit", serif;
+  color: var(--accent-gold);
+  font-size: 1.75rem;
+  margin-bottom: 1.5rem;
+  text-align: center;
+}
+
+p {
+  font-size: 1.6rem;
+  margin-bottom: 1.45rem;
+  color: #ddd;
+}
+
+/* CTA Button */
+.cta-container {
+  text-align: center;
+  margin-top: 3rem;
+}
+
+.btn {
+  display: inline-block;
+  background-color: var(--accent-gold);
+  color: var(--dark-bg);
+  padding: 0.9rem 2.5rem;
+  font-family: "Tiro Devanagari Sanskrit", serif;
+  font-weight: bold;
+  font-size: 1.1rem;
+  text-decoration: none;
+  border-radius: 4px;
+  transition: background 0.3s ease;
+  box-shadow: 0 4px 15px rgba(212, 175, 55, 0.3);
+}
+
+.btn:hover {
+  background-color: #e5c158;
+}
+
+footer {
+  text-align: center;
+  padding: 2rem;
+  background-color: #111;
+  font-size: 0.9rem;
+  color: #888;
+  border-top: 1px solid #333;
+}
